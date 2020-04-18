@@ -1,7 +1,7 @@
 # js-basic-data-structures
 JS basic data structures implementation
 
-In a recent interview I realized that I have difficulties to remember almost everything about the basics when onto pressure. And so I decided to reimplement every basic data structures I am aware of, or discovering following online courses.
+In a recent interview I realized that I have difficulties to remember almost everything about the basics when onto pressure. And so I decided to reimplement every basic data structures I am aware of, or discovered following online courses.
 
 ## Todo :
 
