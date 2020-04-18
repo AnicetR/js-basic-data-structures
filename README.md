@@ -9,7 +9,7 @@ In a recent interview I realized that I have difficulties to remember almost eve
 - :black_square_button: : Linked Lists
 - :black_square_button: : Doubly Linked Lists
 - :black_square_button: : Stack
-- :black_square_button: : Queue
+- :white_check_mark: : Queue
 - :black_square_button: : Prority Queue
 - :black_square_button: : Union find
 - :black_square_button: : Binary Search Tree
