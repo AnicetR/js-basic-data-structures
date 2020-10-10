@@ -1,4 +1,4 @@
-class BinaryHeap {
+export default class BinaryHeap {
   data = [];
   type = 'min';
 
@@ -14,9 +14,11 @@ class BinaryHeap {
   }
 
   pop() {
+    let el = this.data[0];
     this.swap(0, this.data.length - 1);
     this.data.pop();
     this.sinkDown(0);
+    return el;
   }
 
   remove(num){
