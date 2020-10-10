@@ -17,11 +17,11 @@ class LinkedList {
     if (this.size === 0) {
       this.head = node;
     } else {
-      let current = this.head;
-      while (current.next !== null) {
-        current = current.next;
+      let cursor = this.head;
+      while (cursor.next !== null) {
+        cursor = cursor.next;
       }
-      current.next = node;
+      cursor.next = node;
     }
     this.size++;
   }
@@ -38,21 +38,21 @@ class LinkedList {
         this.head = node;
       } else {
         let i = 1;
-        let current = this.head;
+        let cursor = this.head;
         let prev = null;
 
         while (i < position) {
-          prev = current;
-          current = current.next;
+          prev = cursor;
+          cursor = cursor.next;
           i++;
         }
 
         if (prev != null) {
-          node.next = current;
+          node.next = cursor;
           prev.next = node;
         } else {
-          node.next = current;
-          current = node;
+          node.next = cursor;
+          cursor = node;
         }
       }
       this.size++;
@@ -65,16 +65,16 @@ class LinkedList {
       if (position === 0) {
         this.head = this.head.next;
       } else {
-        let current = this.head;
+        let cursor = this.head;
         let prev = null;
         let i = 0;
 
         while (i < position) {
-          prev = current;
-          current = current.next;
+          prev = cursor;
+          cursor = cursor.next;
           i++;
         }
-        prev.next = current.next;
+        prev.next = cursor.next;
       }
       this.size--;
     } else {
@@ -87,17 +87,17 @@ class LinkedList {
     if (this.size <= 1) {
       this.head = null;
     } else {
-      let current = this.head;
+      let cursor = this.head;
       let prev = null;
 
-      while (current.elem !== elem) {
-        prev = current;
-        current = current.next;
+      while (cursor.elem !== elem) {
+        prev = cursor;
+        cursor = cursor.next;
       }
       if (prev !== null) {
-        prev.next = current.next;
+        prev.next = cursor.next;
       } else {
-        this.head = current.next;
+        this.head = cursor.next;
       }
       this.size--;
     }
