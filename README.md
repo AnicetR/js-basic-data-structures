@@ -6,7 +6,7 @@ In a recent interview I realized that I have difficulties to remember almost eve
 ## Todo :
 
 ### Data structures
-- :black_square_button: : Linked Lists
+- :white_check_mark: : Linked Lists
 - :black_square_button: : Doubly Linked Lists
 - :black_square_button: : Stack
 - :white_check_mark: : Queue
