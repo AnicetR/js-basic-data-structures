@@ -8,7 +8,7 @@ In a recent interview I realized that I have difficulties to remember almost eve
 ### Data structures
 - :white_check_mark: : Linked Lists
 - :white_check_mark: : Doubly Linked Lists
-- :white_check_mark : Stack
+- :white_check_mark: : Stack
 - :white_check_mark: : Queue
 - :black_square_button: : Prority Queue
 - :black_square_button: : Union find
