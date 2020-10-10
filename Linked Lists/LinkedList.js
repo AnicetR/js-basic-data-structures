@@ -26,7 +26,7 @@ class LinkedList {
     this.size++;
   }
 
-  //Insert element at defined position. If position is > at size, we will insert it at the end
+  //Insert element at defined position. If position is > than size, we will insert it at the end
   insertAt(elem, position) {
     if (position > 0 && position > this.size) {
       return false;
@@ -59,27 +59,26 @@ class LinkedList {
     }
   }
 
+  //Delete an element from a given position
   removeFrom(position) {
-    if (position > 0 && position > this.size) {
-      if (position < this.size) {
-        if (position === 0) {
-          this.head = this.head.next;
-        } else {
-          let current = this.head;
-          let prev = null;
-          let i = 0;
-
-          while (i < position) {
-            prev = current;
-            current = current.next;
-            i++;
-          }
-          prev.next = current.next;
-          this.size--;
-        }
+    if (position < this.size) {
+      if (position === 0) {
+        this.head = this.head.next;
       } else {
-        return -1;
+        let current = this.head;
+        let prev = null;
+        let i = 0;
+
+        while (i < position) {
+          prev = current;
+          current = current.next;
+          i++;
+        }
+        prev.next = current.next;
       }
+      this.size--;
+    } else {
+      return -1;
     }
   }
 
@@ -116,5 +115,5 @@ linkedList.removeElement("test");
 console.log(linkedList);
 linkedList.insertAt("testInserted", 2);
 console.log(linkedList);
-linkedList.removeFrom(1);
+linkedList.removeFrom(0);
 console.log(linkedList);
