@@ -10,6 +10,7 @@ In a recent interview I realized that I have difficulties to remember almost eve
 - :white_check_mark: : Doubly Linked Lists
 - :white_check_mark: : Stack
 - :white_check_mark: : Queue
+- :white_check_mark: : Binary Heaps
 - :black_square_button: : Prority Queue
 - :black_square_button: : Union find
 - :black_square_button: : Binary Search Tree
