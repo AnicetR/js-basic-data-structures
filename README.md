@@ -13,7 +13,7 @@ In a recent interview I realized that I have difficulties to remember almost eve
 - :white_check_mark: : Binary Heaps
 - :white_check_mark: : Prority Queue
 - :black_square_button: : Union find
-- :black_square_button: : Binary Search Tree
+- :white_check_mark: : Binary Search Tree
 - :black_square_button: : Hash Table
 - :black_square_button: : Fenwick Tree
 - :black_square_button: : Suffix Array
